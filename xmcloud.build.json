@@ -1,5 +1,14 @@
 {
     "renderingHosts": {
+        "mous-play-summit": {
+            "path": "./src/rendering",
+            "nodeVersion": "20.10.0",
+            "jssDeploymentSecret":"511cdfab92b7440db866ac0fb817b490",
+            "enabled": true,
+            "type": "sxa",
+            "buildCommand": "build",
+            "runCommand": "next:start"
+        },
         "playwebsite": {
             "path": "./src/rendering",
             "nodeVersion": "20.10.0",
